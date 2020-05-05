@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-05-04T05:39:00Z" name="Default suite" finished-at="2020-05-04T05:39:29Z" duration-ms="28764">
+    <groups>
+    </groups>
+    <test started-at="2020-05-04T05:39:00Z" name="Default test" finished-at="2020-05-04T05:39:29Z" duration-ms="28764">
+      <class name="com.QuiyumAutomation.TestNGExample">
+        <test-method is-config="true" signature="test()[pri:0, instance:com.QuiyumAutomation.TestNGExample@5e600dd5]" started-at="2020-05-04T05:39:00Z" name="test" finished-at="2020-05-04T05:39:08Z" duration-ms="7944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="Test1_OpenApplication()[pri:0, instance:com.QuiyumAutomation.TestNGExample@5e600dd5]" started-at="2020-05-04T05:39:08Z" name="Test1_OpenApplication" finished-at="2020-05-04T05:39:13Z" duration-ms="5003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1_OpenApplication -->
+        <test-method signature="Test2_ClickOnGetStartedButton()[pri:0, instance:com.QuiyumAutomation.TestNGExample@5e600dd5]" started-at="2020-05-04T05:39:14Z" name="Test2_ClickOnGetStartedButton" finished-at="2020-05-04T05:39:22Z" depends-on-methods="com.QuiyumAutomation.TestNGExample.Test1_OpenApplication" duration-ms="8154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2_ClickOnGetStartedButton -->
+        <test-method signature="Test3_InputEmail()[pri:0, instance:com.QuiyumAutomation.TestNGExample@5e600dd5]" started-at="2020-05-04T05:39:22Z" name="Test3_InputEmail" finished-at="2020-05-04T05:39:24Z" depends-on-methods="com.QuiyumAutomation.TestNGExample.Test2_ClickOnGetStartedButton" duration-ms="2314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3_InputEmail -->
+        <test-method signature="Test4_InputConfirmEmail()[pri:0, instance:com.QuiyumAutomation.TestNGExample@5e600dd5]" started-at="2020-05-04T05:39:24Z" name="Test4_InputConfirmEmail" finished-at="2020-05-04T05:39:24Z" depends-on-methods="com.QuiyumAutomation.TestNGExample.Test3_InputEmail" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test4_InputConfirmEmail -->
+        <test-method signature="Test5_InputPassword()[pri:0, instance:com.QuiyumAutomation.TestNGExample@5e600dd5]" started-at="2020-05-04T05:39:24Z" name="Test5_InputPassword" finished-at="2020-05-04T05:39:24Z" depends-on-methods="com.QuiyumAutomation.TestNGExample.Test4_InputConfirmEmail" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5_InputPassword -->
+        <test-method signature="Test6_InputRepassword()[pri:0, instance:com.QuiyumAutomation.TestNGExample@5e600dd5]" started-at="2020-05-04T05:39:24Z" name="Test6_InputRepassword" finished-at="2020-05-04T05:39:25Z" depends-on-methods="com.QuiyumAutomation.TestNGExample.Test5_InputPassword" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test6_InputRepassword -->
+        <test-method signature="Test7_ClickOnSubmit()[pri:0, instance:com.QuiyumAutomation.TestNGExample@5e600dd5]" started-at="2020-05-04T05:39:25Z" name="Test7_ClickOnSubmit" finished-at="2020-05-04T05:39:25Z" depends-on-methods="com.QuiyumAutomation.TestNGExample.Test6_InputRepassword" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test7_ClickOnSubmit -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.QuiyumAutomation.TestNGExample@5e600dd5]" started-at="2020-05-04T05:39:25Z" name="closeBrowser" finished-at="2020-05-04T05:39:29Z" duration-ms="4382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.QuiyumAutomation.TestNGExample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
