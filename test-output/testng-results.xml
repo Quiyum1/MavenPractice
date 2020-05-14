@@ -1,87 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="14" passed="14">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="22509" started-at="2020-05-05T19:15:32Z" finished-at="2020-05-05T19:15:54Z">
+  <suite started-at="2020-05-14T15:01:00 EDT" name="Suite" finished-at="2020-05-14T15:02:17 EDT" duration-ms="76871">
     <groups>
     </groups>
-    <test name="Test" duration-ms="22509" started-at="2020-05-05T19:15:32Z" finished-at="2020-05-05T19:15:54Z">
-      <class name="com.QuiyumAutomation.TestNGExample">
-        <test-method status="PASS" signature="test()[pri:0, instance:com.QuiyumAutomation.TestNGExample@ae45eb6]" name="test" is-config="true" duration-ms="2184" started-at="2020-05-05T19:15:32Z" finished-at="2020-05-05T19:15:34Z">
+    <test started-at="2020-05-14T15:01:00 EDT" name="Firefox test" finished-at="2020-05-14T15:01:54 EDT" duration-ms="53911">
+      <class name="com.QuiyumAutomation.DifferentBrowser">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.QuiyumAutomation.DifferentBrowser@15b204a1]" started-at="2020-05-14T15:01:00 EDT" name="setup" finished-at="2020-05-14T15:01:32 EDT" duration-ms="32192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="Test1_OpenApplication()[pri:0, instance:com.QuiyumAutomation.TestNGExample@ae45eb6]" name="Test1_OpenApplication" duration-ms="2009" started-at="2020-05-05T19:15:34Z" finished-at="2020-05-05T19:15:36Z">
+        </test-method> <!-- setup -->
+        <test-method signature="open()[pri:0, instance:com.QuiyumAutomation.DifferentBrowser@15b204a1]" started-at="2020-05-14T15:01:32 EDT" name="open" finished-at="2020-05-14T15:01:45 EDT" duration-ms="12577" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test1_OpenApplication -->
-        <test-method status="PASS" signature="Test2_ClickOnGetStartedButton()[pri:0, instance:com.QuiyumAutomation.TestNGExample@ae45eb6]" name="Test2_ClickOnGetStartedButton" duration-ms="2848" started-at="2020-05-05T19:15:36Z" depends-on-methods="com.QuiyumAutomation.TestNGExample.Test1_OpenApplication" finished-at="2020-05-05T19:15:39Z">
+        </test-method> <!-- open -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.QuiyumAutomation.DifferentBrowser@15b204a1]" started-at="2020-05-14T15:01:45 EDT" name="teardown" finished-at="2020-05-14T15:01:54 EDT" duration-ms="9080" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test2_ClickOnGetStartedButton -->
-        <test-method status="PASS" signature="Test3_InputEmail()[pri:0, instance:com.QuiyumAutomation.TestNGExample@ae45eb6]" name="Test3_InputEmail" duration-ms="2336" started-at="2020-05-05T19:15:39Z" depends-on-methods="com.QuiyumAutomation.TestNGExample.Test2_ClickOnGetStartedButton" finished-at="2020-05-05T19:15:41Z">
+        </test-method> <!-- teardown -->
+      </class> <!-- com.QuiyumAutomation.DifferentBrowser -->
+    </test> <!-- Firefox test -->
+    <test started-at="2020-05-14T15:01:54 EDT" name="Chrome test" finished-at="2020-05-14T15:02:17 EDT" duration-ms="22850">
+      <class name="com.QuiyumAutomation.DifferentBrowser">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.QuiyumAutomation.DifferentBrowser@75329a49]" started-at="2020-05-14T15:01:54 EDT" name="setup" finished-at="2020-05-14T15:02:00 EDT" duration-ms="5678" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test3_InputEmail -->
-        <test-method status="PASS" signature="Test4_InputConfirmEmail()[pri:0, instance:com.QuiyumAutomation.TestNGExample@ae45eb6]" name="Test4_InputConfirmEmail" duration-ms="232" started-at="2020-05-05T19:15:41Z" depends-on-methods="com.QuiyumAutomation.TestNGExample.Test3_InputEmail" finished-at="2020-05-05T19:15:41Z">
+        </test-method> <!-- setup -->
+        <test-method signature="open()[pri:0, instance:com.QuiyumAutomation.DifferentBrowser@75329a49]" started-at="2020-05-14T15:02:00 EDT" name="open" finished-at="2020-05-14T15:02:13 EDT" duration-ms="12742" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test4_InputConfirmEmail -->
-        <test-method status="PASS" signature="Test5_InputPassword()[pri:0, instance:com.QuiyumAutomation.TestNGExample@ae45eb6]" name="Test5_InputPassword" duration-ms="209" started-at="2020-05-05T19:15:41Z" depends-on-methods="com.QuiyumAutomation.TestNGExample.Test4_InputConfirmEmail" finished-at="2020-05-05T19:15:42Z">
+        </test-method> <!-- open -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.QuiyumAutomation.DifferentBrowser@75329a49]" started-at="2020-05-14T15:02:13 EDT" name="teardown" finished-at="2020-05-14T15:02:17 EDT" duration-ms="4423" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test5_InputPassword -->
-        <test-method status="PASS" signature="Test6_InputRepassword()[pri:0, instance:com.QuiyumAutomation.TestNGExample@ae45eb6]" name="Test6_InputRepassword" duration-ms="214" started-at="2020-05-05T19:15:42Z" depends-on-methods="com.QuiyumAutomation.TestNGExample.Test5_InputPassword" finished-at="2020-05-05T19:15:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test6_InputRepassword -->
-        <test-method status="PASS" signature="Test7_ClickOnSubmit()[pri:0, instance:com.QuiyumAutomation.TestNGExample@ae45eb6]" name="Test7_ClickOnSubmit" duration-ms="100" started-at="2020-05-05T19:15:42Z" depends-on-methods="com.QuiyumAutomation.TestNGExample.Test6_InputRepassword" finished-at="2020-05-05T19:15:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test7_ClickOnSubmit -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.QuiyumAutomation.TestNGExample@ae45eb6]" name="closeBrowser" is-config="true" duration-ms="256" started-at="2020-05-05T19:15:42Z" finished-at="2020-05-05T19:15:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.QuiyumAutomation.TestNGExample -->
-      <class name="com.QuiyumAutomation.TestNGExample2">
-        <test-method status="PASS" signature="test()[pri:0, instance:com.QuiyumAutomation.TestNGExample2@59f99ea]" name="test" is-config="true" duration-ms="1440" started-at="2020-05-05T19:15:42Z" finished-at="2020-05-05T19:15:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="Test1_OpenApplication()[pri:0, instance:com.QuiyumAutomation.TestNGExample2@59f99ea]" name="Test1_OpenApplication" duration-ms="2234" started-at="2020-05-05T19:15:44Z" finished-at="2020-05-05T19:15:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test1_OpenApplication -->
-        <test-method status="PASS" signature="Test2_ClickOnGetStartedButton()[pri:0, instance:com.QuiyumAutomation.TestNGExample2@59f99ea]" name="Test2_ClickOnGetStartedButton" duration-ms="4616" started-at="2020-05-05T19:15:46Z" depends-on-methods="com.QuiyumAutomation.TestNGExample2.Test1_OpenApplication" finished-at="2020-05-05T19:15:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test2_ClickOnGetStartedButton -->
-        <test-method status="PASS" signature="Test3_InputEmail()[pri:0, instance:com.QuiyumAutomation.TestNGExample2@59f99ea]" name="Test3_InputEmail" duration-ms="2805" started-at="2020-05-05T19:15:50Z" depends-on-methods="com.QuiyumAutomation.TestNGExample2.Test2_ClickOnGetStartedButton" finished-at="2020-05-05T19:15:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test3_InputEmail -->
-        <test-method status="PASS" signature="Test4_InputConfirmEmail()[pri:0, instance:com.QuiyumAutomation.TestNGExample2@59f99ea]" name="Test4_InputConfirmEmail" duration-ms="234" started-at="2020-05-05T19:15:53Z" depends-on-methods="com.QuiyumAutomation.TestNGExample2.Test3_InputEmail" finished-at="2020-05-05T19:15:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test4_InputConfirmEmail -->
-        <test-method status="PASS" signature="Test5_InputPassword()[pri:0, instance:com.QuiyumAutomation.TestNGExample2@59f99ea]" name="Test5_InputPassword" duration-ms="229" started-at="2020-05-05T19:15:53Z" depends-on-methods="com.QuiyumAutomation.TestNGExample2.Test4_InputConfirmEmail" finished-at="2020-05-05T19:15:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test5_InputPassword -->
-        <test-method status="PASS" signature="Test6_InputRepassword()[pri:0, instance:com.QuiyumAutomation.TestNGExample2@59f99ea]" name="Test6_InputRepassword" duration-ms="204" started-at="2020-05-05T19:15:54Z" depends-on-methods="com.QuiyumAutomation.TestNGExample2.Test5_InputPassword" finished-at="2020-05-05T19:15:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test6_InputRepassword -->
-        <test-method status="PASS" signature="Test7_ClickOnSubmit()[pri:0, instance:com.QuiyumAutomation.TestNGExample2@59f99ea]" name="Test7_ClickOnSubmit" duration-ms="131" started-at="2020-05-05T19:15:54Z" depends-on-methods="com.QuiyumAutomation.TestNGExample2.Test6_InputRepassword" finished-at="2020-05-05T19:15:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test7_ClickOnSubmit -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.QuiyumAutomation.TestNGExample2@59f99ea]" name="closeBrowser" is-config="true" duration-ms="169" started-at="2020-05-05T19:15:54Z" finished-at="2020-05-05T19:15:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.QuiyumAutomation.TestNGExample2 -->
-    </test> <!-- Test -->
+        </test-method> <!-- teardown -->
+      </class> <!-- com.QuiyumAutomation.DifferentBrowser -->
+    </test> <!-- Chrome test -->
   </suite> <!-- Suite -->
 </testng-results>

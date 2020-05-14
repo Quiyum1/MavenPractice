@@ -1,21 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.QuiyumAutomation.TestNGExample">
+      <class name="com.QuiyumAutomation.WixNew">
         <methods>
-          <include name="Test5_InputPassword"/>
-          <include name="Test2_ClickOnGetStartedButton"/>
-          <include name="Test3_InputEmail"/>
-          <include name="test"/>
-          <include name="Test7_ClickOnSubmit"/>
-          <include name="closeBrowser"/>
-          <include name="Test4_InputConfirmEmail"/>
+          <include name="Test3_LogIn"/>
           <include name="Test1_OpenApplication"/>
-          <include name="Test6_InputRepassword"/>
+          <include name="test"/>
+          <include name="Test2_ClickOnGetStartedButton"/>
         </methods>
-      </class> <!-- com.QuiyumAutomation.TestNGExample -->
+      </class> <!-- com.QuiyumAutomation.WixNew -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
